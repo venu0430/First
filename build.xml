@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="First project" default="print_msg">
+	<target name="print_msg" depends="Venu,Devops">
+		<echo>Planning to Implement and settle</echo>
+	</target>
+
+	<property file="my.properties"/>
+
+	<target name="Venu">
+		<echo>Missing Home - Waiting to visit Home SITE: ${sitename} DEPLOY:${deploy_id}</echo>
+	</target>
+
+	<target name="Devops">
+		<echo>Trying to learn</echo>
+	</target>
+</project>
